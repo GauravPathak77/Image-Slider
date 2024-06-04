@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .heading{
+    text-align: center;
+    color: #624F82;
+    text-decoration: underline;
+    text-shadow: 
+        -0.1rem -0.1rem 0 #000,  
+         0.1rem -0.1rem 0 #000,
+        -0.1rem  0.1rem 0 #000,
+         0.1rem  0.1rem 0 #000;
+  }
+  
+  .sliderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slider {
+    width: 80%;
+    margin: 0.2rem 0;
+  }
+  
+  .image {
+    width: 80%;
+    height: auto;
+    margin: 1rem 0;
+    border: 0.2rem solid #231c2e;
+    border-radius: 1rem;
+  }
+  

@@ -1,4 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Image Slider Project
+
+This project is a simple image slider built using Next.js. The slider allows you to navigate through a series of images using a range input. The slider's track and thumb are styled to change color dynamically as you move the slider.
+
+## Project Structure
+my-slider-app
+├── public
+│ └── images
+│ ├── 0.jpg
+│ ├── 1.jpg
+│ ├── 2.jpg
+│ └── ...
+│ └── 100.jpg
+├── src
+│ ├── app
+│ │ └── page.js
+│ ├── components
+│ │ └── ImageSlider.js
+│ ├── styles
+│ │ └── ImageSlider.module.css
+└── ...
+
+
+## Setup and Installation
+
+**Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/image-slider.git
+   cd image-slider
+
+**Install dependencies:**
+```bash
+npm install
 
 ## Getting Started
 
