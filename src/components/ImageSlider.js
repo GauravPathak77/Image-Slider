@@ -20,7 +20,7 @@ const ImageSlider = () => {
       <input
         type="range"
         min="0"
-        max="10000"
+        max="5000"
         value={sliderValue}
         onChange={handleSliderChange}
         className={styles.slider}
